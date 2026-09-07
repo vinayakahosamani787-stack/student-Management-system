@@ -13,7 +13,7 @@ class StudentManagement:
     def __init__(self):
         self.students=[]
     def add_student(self):
-        student_id=input("Enter the student id: ")
+        student_id=input("Enter the student id : ")
         name=input("Enter the student name: ")
         age=int(input("Enter the student age: "))
         course=input("Enter the student course: ")
@@ -64,7 +64,7 @@ while True:
     try:
         choice=int(input("Enter the choice: "))
     except ValueError:
-        print("Enter valid choice")
+        print("Enter the valid choice")
         continue
     if choice==1:
         system.add_student()
