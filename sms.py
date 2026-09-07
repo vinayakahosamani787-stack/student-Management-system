@@ -62,7 +62,7 @@ system=StudentManagement()
 while True:
     print("1. Add Student\n2. Display Student\n3. Search Student\n4. Update Student\n5. Delete Student\n6. Exit\n")
     try:
-        choice=int(input("Enter your choice: "))
+        choice=int(input("Enter the choice: "))
     except ValueError:
         print("Enter valid choice")
         continue
