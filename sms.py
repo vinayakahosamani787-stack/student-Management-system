@@ -30,7 +30,7 @@ class StudentManagement:
                 Sid.display_info()
                 found=True
         if not found:
-            print("Student not found")
+            print("Student not found!")
     def update_student(self):
         upd_id=input("Enter the id to update the details: ")
         found=False
